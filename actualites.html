@@ -22,7 +22,7 @@
 
   </head>
 
-  <body>
+  <body class="accueil">
 
     <div class="bg-dark header">
         <div class="container">
@@ -53,43 +53,115 @@
           </div>
         </div>
       </div>
-
-<!-- Section: Form -->
-<section class="newsletter">
-  <form action="">
-    <!--Grid row-->
-    <div class="row d-flex justify-content-center">
-      <!--Grid column-->
-      <div class="col-auto">
-        <p class="pt-2">
-          <strong>Inscrivez vous à notre newsletter pour ne rien rater!</strong>
-        </p>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-md-5 col-12">
-        <!-- Email input -->
-        <div class="form-outline form-white mb-4">
-          <input type="email" id="form5Example21" class="form-control" />
-          <label class="form-label" for="form5Example21">Entrez votre adresse mail</label>
+  <main>
+    <h1 class="display-1 text-center">Actualités</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-9 center">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+              <img class="col-4" src="images/coucou.jpg"   alt="Second slide">
+              <img class="col-4" src="images/deadman.jpg"  alt="First slide">
+              <img class="col-4" src="images/eraser.jpg"  alt="Third slide">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+              <img class="col-4" src="images/coucou.jpg"   alt="Second slide">
+              <img class="col-4" src="images/deadman.jpg"  alt="First slide">
+              <img class="col-4" src="images/eraser.jpg"  alt="Third slide">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <img class="col-4" src="images/coucou.jpg"   alt="Second slide">
+                <img class="col-4" src="images/deadman.jpg"  alt="First slide">
+                <img class="col-4" src="images/eraser.jpg"  alt="Third slide">
+              </div>
+            </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Précédent</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Suivant</span>
+          </a>
         </div>
+        
+        </div>
+        
       </div>
-      <!--Grid column-->
+      <div class=" mx-auto col-lg-2 bg-dark border">
+        <aside>
+          <h2 class="text-center text-white">Les actualités les plus populaires :</h2>
+          <p><span class="text-white">Film n°1 :</span> <div class="card col-12">
+            <div class="card-body">
+              <h5 class="card-title">Vol au-dessus d'un nid de coucou</h5>
+              <h6 class="card-subtitle mb-2 text-muted">De Miloš Forman</h6>
+            </div>
+          </div></p>
+          <p><span class="text-white">Film n°2 :</span> <div class="card col-12">
+            <div class="card-body">
+              <h5 class="card-title">Deadman</h5>
+              <h6 class="card-subtitle mb-2 text-muted">De Miloš Forman</h6>
+            </div>
+          </div></p>
+          <p><span class="text-white">Film n°3 :</span> <div class="card col-12">
+            <div class="card-body">
+              <h5 class="card-title">Eraserhead</h5>
+              <h6 class="card-subtitle mb-2 text-muted">De Miloš Forman</h6>
+            </div>
+          </div></p>
+        </aside>
+      </div>
+      </div>
+    
 
-      <!--Grid column-->
-      <div class="col-auto">
-        <!-- Submit button -->
-        <button type="submit" class="btn btn-outline-light mb-4">
-          S'inscrire
-        </button>
-      </div>
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </form>
-</section>
-<!-- Section: Form -->
+    <!-- Section: Form -->
+    <section class="newsletter">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Inscrivez vous à notre newsletter pour ne rien rater!</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Entrez votre adresse mail</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              S'inscrire
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+  </main>  
+    <!-- Section: Form -->
 <!-- Footer -->
 <footer class="bg-dark text-center text-white static-bottom">
 <!-- Grid container -->
