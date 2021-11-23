@@ -3839,6 +3839,7 @@ textarea.form-control-lg {
 
 .nav-link {
   display: block;
+  font-size: 1.2rem;
   padding: 0.5rem 1rem;
   color: #0d6efd;
   text-decoration: none;
@@ -11219,5 +11220,8 @@ input, textarea, select {
 }
 #reservation>a {
   text-decoration:none; 
-  color: #290707;
+  
+}
+p {
+  font-size: 1.2rem;
 }
