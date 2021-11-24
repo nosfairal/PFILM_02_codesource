@@ -11197,12 +11197,21 @@ input, textarea, select {
   color: #E9DB92 !important;
 }
 .text-white {
-  color:#F39946 !important;
+  /*color:#F39946 !important;*/
+  color: #E9DB92 !important;
 }
+/*Titre de page*/
 .display-1 {
   color: #E9DB92 !important;
   font-weight: 700;
 }
+.display-5 {
+  color: #F39946;
+  font-weight: 500;
+  background-color: #290707;
+  opacity: 0.7;
+}
+/*boutons*/
 .btn-block {
   background-color: #70A589 !important;
   /*background-color: #EE4037 !important;*/
@@ -11210,13 +11219,20 @@ input, textarea, select {
   /*color: #E9DB92!important;*/
   opacity: 0.8;
 }
+#button-newsletter {
+  background-color: #70A589;
+  opacity: 0.8;
+}
 #reservation>a {
   text-decoration:none; 
-  
+  color: #290707;
 }
 p {
   font-size: 1.2rem;
 }
 img {
   max-width: 100%;
+}
+.bg-orange {
+  background-color: #F39946;
 }
