@@ -5,6 +5,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -3318,8 +3319,8 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-  color: #F39946;
-  border-color: #F39946;
+  color: #E9DB92;
+  border-color: #E9DB92;
 }
 .btn-outline-light:hover {
   color: #000;
@@ -11202,11 +11203,16 @@ input, textarea, select {
 }
 /*Titre de page*/
 .display-1 {
-  color: #E9DB92 !important;
+  color: #EE4037 !important;
   font-weight: 700;
+  font-family: 'Permanent Marker', cursive;
+}
+.display-2 {
+  color: #290707!important;
+  font-weight: 500;
 }
 .display-5 {
-  color: #F39946;
+  color: #E9DB92;
   font-weight: 500;
   background-color: #290707;
   opacity: 0.7;
@@ -11235,4 +11241,9 @@ img {
 }
 .bg-orange {
   background-color: #F39946;
+}
+.bg-cinema {
+  background-color: #e9ecef;
+  opacity: 1;
+  color: #F39946!important;
 }
