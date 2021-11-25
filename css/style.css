@@ -11133,11 +11133,11 @@ textarea.form-control-lg {
 }
 body {
   background-image: url("../images/festivalmage.jpg") ;
-  background-size: auto;
+  background-size: cover;
 }
 input, textarea, select {
   background-color: #FFF!important;
-  opacity: 0.8;
+  opacity: 0.9;
   border-color:#F39946 !important;
   color: #290707 !important;
 }
@@ -11153,7 +11153,7 @@ input, textarea, select {
 }
 .bg-dark {
   background-color: #E9DB92;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 /*Personnalisation du calendrier de réservation
 .datepicker-dropdown {
@@ -11208,14 +11208,16 @@ input, textarea, select {
   font-family: 'Permanent Marker', cursive;
 }
 .display-2 {
-  color: #290707!important;
+  color: #E9DB92!important;
   font-weight: 500;
+  background-color: #290707;
+  opacity: 0.9;
 }
 .display-5 {
   color: #E9DB92;
   font-weight: 500;
   background-color: #290707;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 /*boutons*/
 .btn-block {
@@ -11223,11 +11225,11 @@ input, textarea, select {
   /*background-color: #EE4037 !important;*/
   color: #290707!important;
   /*color: #E9DB92!important;*/
-  opacity: 0.8;
+  opacity: 1;
 }
 #button-newsletter {
   background-color: #70A589;
-  opacity: 0.8;
+  opacity: 1;
 }
 #reservation>a {
   text-decoration:none; 
@@ -11247,3 +11249,17 @@ img {
   opacity: 1;
   color: #F39946!important;
 }
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:36.25%;
+  position:relative;
+  height:0;
+  }
+  
+  .map-responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
